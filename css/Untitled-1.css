@@ -1,0 +1,26 @@
+
+
+/* start body */
+
+.container {
+    width: 1170px;
+    margin: auto;  
+    background-color: blue;  
+}
+/* end body */
+
+
+/* start header */
+
+header .navbar ul {
+    list-style: none;
+    float: right;
+    padding: left 0; ;
+    overflow: hidden;
+   
+}
+
+header .navbar ul li {float: left; padding:10px }
+
+/* end header */
+

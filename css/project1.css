@@ -1,0 +1,568 @@
+
+
+/* start body */
+
+
+.container {
+    width: 1170px;
+    margin: auto;  
+      
+}
+
+.clearfix{clear: both;}
+/* end body */
+
+
+/* start header */
+header .slide {
+    background: url('../images/download.jpg');    
+    height: 600px   ;
+    background-size: cover;
+}
+
+header .slide .fff {
+    padding: 200px;
+    color: #000000;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+header .slide .fff h2 {
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    padding: 5px 0;
+
+}
+
+header .slide .fff button {
+    background: none;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #000000;
+    padding: 10px 30px ;
+
+}
+
+
+
+header .navbar {
+    background-color: #252f31;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+header .navbar h2 {
+    float: left;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header .navbar h2 span {
+    color: #29d872;
+}
+
+header .navbar ul {
+    list-style: none;
+    float: right;
+    padding: left 0; ;
+    overflow: hidden;
+   text-transform: capitalize;
+}
+
+header .navbar ul li {float: left; padding:10px }
+
+header .navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header .navbar ul li a:hover{
+    color: aqua;
+}
+/* end header */
+
+/*start features*/
+.features {
+    overflow: hidden;
+    padding-top: 40px ;
+    padding-bottom: 50px;
+}
+.features .feat {
+    float: left;
+    width: 33.3333333%;
+    height: 150px;
+  
+}  
+
+.features .feat h2{
+    text-transform: capitalize;
+    color: #555555;
+}
+
+.features .feat p {
+    line-height: 1.7;
+    color: #888888;
+}
+/*end features*/
+
+/* start about me */
+.about-me {
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+.about-me .image {
+    width: 40%;
+    float: left;    
+}
+
+.about-me .image img {width: 100%;}
+
+.about-me .info {
+    float: left;
+    width: 60%;
+    
+}
+
+.about-me .info h2 {
+    color: #555555;
+    padding: 40px 0 0 40px;
+    margin: 0 0 0 20px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-me .info p{
+    color: #888888;
+    padding: 0 0 0 60px;
+    margin: 25px 0 25px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.4;
+    font-size: 15px;
+}
+
+.about-me .info .hobbies {
+    overflow: hidden;
+    padding: 15px 0 0 60px;
+
+}
+
+.about-me .info .hobbies .content{
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    margin-bottom: 20px;
+   
+}
+
+.about-me .info .hobbies .content .icon{ 
+    float: left;
+    width: 10%;
+    margin-right:10%;
+   
+    
+}
+.about-me .info .hobbies .content .icon img{
+    max-width: 100%;
+    margin: 30px 10px 0 0 ;
+
+}
+
+.about-me .info .hobbies .content .text{ 
+    float: left;
+    width: 80%;
+    
+}
+.about-me .info .hobbies .content .text h3 {
+    color: #555555;
+    margin-bottom: 5px ;
+}
+
+.about-me .info .hobbies .content .text p{
+    color: #888888;
+    padding: 5px 10px 0 0;
+    margin-top: 0;
+}
+
+
+/* end about me */
+
+/* start my skills*/
+.my-skills {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.my-skills .skills ,
+.my-skills .progress{
+float: left;
+width: 50%;
+}
+
+.my-skills .skills h2{
+    font-weight: bolder;
+    color: #555555;
+    margin: 25px 0 20px 40px;
+}
+
+.my-skills .skills p {
+    margin: 0 0 10px 40px;
+    color: #888888;
+}
+
+.my-skills .skills p:last-of-type{
+    margin-top: 25px ;
+}
+.my-skills .skills button {
+    background: none;
+    border: 2px solid #29d872;
+    padding: 10px 30px;
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #29d872 ;
+}
+ .my-skills .progress .tech { margin-left: 50px;}
+
+ .my-skills .progress .tech h3 { color: #555555;}
+ 
+ .my-skills .progress .tech div {
+     background-color: #f2f2f2;
+     height: 25px;
+ }
+
+ .my-skills .progress .tech div span {
+     background-color: #29d872;
+     height: 100%;
+     display: block;
+     text-align: right;
+     line-height: 25px;
+     color: #ffffff;
+     font-weight: bold;
+
+ }
+
+
+/* end my skills */
+
+/* start resume*/
+.resume {
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.resume h2 {
+    color: #555555;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.resume p {
+    line-height: 1.7;
+    color: #888888 ;
+    padding: 0 50px ;
+    margin-bottom: 10px;
+}
+
+.resume button {
+    background: none;
+    border: 2px solid #29d872;
+    padding: 10px 30px;
+   
+    margin-top: 20px;
+    color: #29d872 ;
+}
+/*end resume*/
+
+/* start education*/
+.education {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.education .main {
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+}
+
+.education .main h2 {
+    font-weight: bolder;
+    color: #555555;
+    margin: 25px 0 20px 40px;
+}
+
+.education .main p {
+    margin: 0 0 10px 40px;
+    color: #888888;
+}
+
+.education .exp{
+float: left;
+width: 45%;
+}
+
+.education .exp h3 {
+    color: #555555;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 73px;
+    margin-bottom: 10px;
+
+}
+
+.education .exp span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.education .exp span:first-of-type{
+    color: #888888;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.education .exp span:last-of-type{
+    display: inline-block;
+    background-color: #29d872;
+    padding: 4px 10px;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.education .exp hr {
+    background-color: #999999;
+    margin: 20px 0;
+    height: 1px;
+    border: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.education .exp p {
+    line-height: 1.7;
+    color: #888888 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  
+}
+
+
+
+/* end my skills */
+
+/* start testemonials*/
+.testemonials {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.testemonials q {
+    font: italic bold 15px/1.8 arial, tahoma ;
+    color: #888888;
+    
+}
+
+.testemonials h3 {
+    color: #777777;
+    margin: 30px 0;
+    font: italic bold 15px arial,tahoma;
+}
+
+.testemonials ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.testemonials ul li {
+    border: 2px solid #29d872;
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.testemonials ul .aaa , .testemonials ul li:hover {
+    background-color: #29d872;
+}
+
+/*end testemonials*/
+
+/* start portofolio*/
+.portofolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.portofolio h2 {
+    color: #555555;
+}
+
+.portofolio p {
+    line-height: 1.7;
+    color: #888888;
+    margin-bottom: 30px;
+}
+ 
+.portofolio .info {
+    overflow: hidden;
+}
+
+.portofolio .info > div {
+    width: 33.333333%;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.portofolio .info > div img {
+    width: 92%;
+    margin: 10px;
+    padding: 3px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    box-shadow: 10px 10px 3px #cccccc;
+}
+
+/*end portofolio*/
+
+/* start contact*/
+.contact {
+    overflow: hidden;
+    background-color: #252F31;
+}
+
+.contact .me {
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact .form {
+    float: left;
+    width: 45%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.contact .me h2{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+.contact .me p{
+     color: #6A6E71;
+     margin: 30px 0;
+
+    
+}
+
+.contact .form label {
+    display: block;
+    color: #ffffff;
+    margin: 10px 0;
+
+}
+
+.contact .form input {
+    margin-bottom: 20px;
+    width: 85%;
+    background-color: #4b5557;
+    color: #ffffff;
+    border: 0;
+    height: 35px;
+
+}
+
+.contact .form textarea {
+    margin-bottom: 20px;
+    width: 85%;
+    background-color: #4b5557;
+    color: #ffffff;
+    border: 0;
+    height: 155px;
+
+   
+}
+
+
+
+.contact .me strong {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.contact .form button {
+    padding: 10px 20px;
+    background-color: #191e22;
+    border: 0;
+    color: #ffffff;
+
+
+}
+/*end contact*/
+
+/*start footer*/
+footer{
+    background-color: #191e22;
+    overflow: hidden;
+    color: #6A6E71;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer span {
+    color: #6A6E71;
+    display: block;
+    float: left;
+
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px  0;
+    float: right;
+
+}
+
+footer ul li {
+    width: 24px;
+    display: inline;
+    float: left;
+    border-radius: 50%;
+    margin: 0 5px ;
+}
+
+footer ul li img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+/*end footer*/
+
+
+
